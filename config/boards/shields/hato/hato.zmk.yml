@@ -1,0 +1,8 @@
+file_format: "1"
+id: hato
+name: hato
+type: shield
+url: https://github.com/mint149/zmk-config
+requires: [seeeduino_xiao_ble]
+features:
+  - keys

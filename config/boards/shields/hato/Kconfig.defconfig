@@ -1,0 +1,4 @@
+if HATO
+config ZMK_KEYBOARD_NAME
+    default "haTo"
+endif
