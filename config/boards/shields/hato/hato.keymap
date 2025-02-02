@@ -4,10 +4,17 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer{
-            bindings = <
-                &kp A       &kp E
-                &kp LSHIFT  &kp X
+        default_layer {
+                bindings = <
+                    &kp A &kp E
+                    &mo 1 &kp X
+            >;
+        };
+
+        num_layer {
+                bindings = <
+                    &kp N1 &kp N2
+                    &kp N3 &kp N4
             >;
         };
     };
